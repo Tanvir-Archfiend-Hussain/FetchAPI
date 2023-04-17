@@ -3,6 +3,6 @@
  * Second property was passed .......
  */
 
-fetch("https://reqres.in/api/users")
+fetch("https://reqres.in/api/users/12")
   .then((res) => res.json())
   .then((data) => console.log(data));
